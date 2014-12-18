@@ -8,7 +8,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 
-\title{LEARNING LIKE A HUMAN IN COGNITIVE ROBOT \\ LITERATURE SURVEY REPORT}
+\title{LEARNING LIKE A HUMAN IN COGNITIVE ROBOTS \\ LITERATURE SURVEY REPORT}
 
 
 \author{Semih Onay}
@@ -24,47 +24,40 @@
 \chapter{INTRODUCTION}
 \pagenumbering{arabic}
 
-\section{Can we teach languages to a robot like us ?}
+Human languages are key of socialization.Humans use languages to explain physical world around them or to share their feelings and thoughts.
+By looking at the researches, it's not easy to give a precise description of it's purpose and fundamental functions.Before going deep, it's important to understand how human use languages.
+By looking at a young stages of human life, children's gaining word meanings by experimenting around with visual,motor,direct interaction.After that things are gaining their meanings.
 
-Traditional way of learning in robots are known as machine learning.The process which gathers information around itself with sensors and feedbacks and robot trains it self with given sample data sets then interprets it from these data sets and makes estimations.
-
-In Figure 1.1 it shows a different way of learning like our brain structure using neural networks.
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.5]{controller.png}
-\caption{Neural Learning Method}
-\end{center}
-\end{figure}
-
-\chapter{RESEARCH AIM AND OBJECTIVES}
-\section{What are we going to do ?}
-
-\begin{itemize}
-	\item To understand how cognitive model for robots work
-	\item To demonstrate and measure cognitive methods
-	\item To extend known words,sentences to many and be able to implement correctly
-\end{itemize}
+One central topic in cognitive science is the acquisition of the meaning of words; it has often seemed as a very complex task because it involves different cognitive capabilities working together   
+A complete description of human language functions and operations is still missing. In particular, the fundamental mechanisms that allow humans to associate meanings to words are still a matter of ongoing study among the scientists. 
+Humans use some language functions to; describe what they perceive, asking others to perform appropriate action in conversations.\\\\
+Language, permits to combine simpler and basic concepts together in order to create the semantic reference of words that do not have a direct and tangible relation with the perceptual world. This is the case, for example, of abstract words. Whilst for con- crete words the semantic reference can be perceived through the senses, and these can be directly linked to physical experiences, abstract words refer to things that are mostly intangible.\\\\
+Addressing the formation of higher- order concepts and, partially, addressing the dichotomy between concreteness and abstractness, through the implementation of a neuro-robotic model. Through this model we aim at linking symbolic information provided in a form of simplified linguistic token (language components) and the sensorimotor knowledge (actions) in order to better clarify the underling mechanisms involved during the acquisition of the meaning of words characterized by different levels of combinatorial complexity.
 
 
-\subsection{What We Will Use}
+\chapter{LITERATURE REVIEW}
 
-We won't be able to use iCub robot to demonstrate and apply our work.We will use iCub simulation on YARP (Yet Another Robot Platform) to measure and implement our methods.
+There're many ‘‘grounded approaches’’ for modeling language, in which linguistic abilities are developed through the direct interaction between the cognitive agents and the physical world, have been proposed. In these models, the external world playing an essential role in shaping the language used by these cognitive systems. 
 
-\chapter{RESOURCES}
+Some theories \cite{1} suggests concept manipulation provised by language is a key to understand the semantic representation of words that refer to abstract entities. Abstract concepts are formed through language and demand a form of higher-order concepts based on the combination of simpler representations\\\\ 
+According to a general definition \cite{2} abstract words represent everything which is not physically defined nor spatially constrained (mental states) and referring to things that can be perceived not through the senses but by the mind. The kinds of concepts that lie behind abstract words cannot be directly linked to sensorimotor experience because they cannot be seen or touched and it is not possible to directly interact with them.\\\\
+By Cangelosi and Riga\cite{3} suggesting the grounding of language in autonomous cognitive systems requires a direct grounding of the agent’s basic lexicon. This assumes the ability to link perceptual (and internal) representations to symbols. In this modeling paradigm, artificial agents are asked to associate features of objects to words, where this association is self- organized by the agents itself. An agent discovers autonomously certain features that are peculiar to a given object and learns from a model, which is usually another agent, to associate the feature to an arbitrary word. 
 
-\begin{enumerate}
-	\item THRIVE: Trust in Human Robot Interaction Via Embodiment,Professor Angelo CangelosiCentre for Robotics and Neural Systems, Plymouth University, UK
-	\item The grounding of higher order concepts in action and language: A cognitive robotics model, Francesca Stramandinoli, Davide Marocco, Angelo Cangelosi
-	\item Towards the Grounding of Abstract Words: A Neural Network Model for Cognitive Robots, Francesca Stramandinoli, Angelo Cangelosi and Davide Marocco
+Recently, a growing number of robotics models present connectionist architectures as control systems. That is, the ‘‘artificial brain’’ of the robot is an artificial neural network that typically takes different kinds of sensory information as inputs and activates the robot’s motor joints according to the elaborated output.\cite{4}
 
-\end{enumerate}
+
 %\appendix
 
 %\chapter{TITLE OF THE FIRST APPENDIX}
 
 \begin{thebibliography}{9}
-\bibitem{diagram} Figure.1.1 : http://www.cor-lab.de/content/cognitive-robotics-and-learning
-
+\bibitem{1} Barsalou, L. Perceptual symbol systems. Behavioral and Brain Sciences
+\bibitem{2}Barsalou, L. \& Wiemer-Hastings, K.Situating abstract concepts. Grounding cognition: the role of perception and action in memory. Language, and Thinking
+\bibitem{3}Cangelosi, A., \& Riga, T. An embodied model for sensorimotor groundingand grounding transfer: experiments with epigenetic robots. Cognitive Science
+\bibitem{4}Marocco, D., Cangelosi, A., Fischer, K. \& Belpaeme, T. (2010). Grounding actionwords in the sensorimotor interaction with the world: experiments with asimulated iCub humanoid robot. Frontiers in Neurorobotics
+\bibitem{}The grounding of higher order concepts in action and language: A cognitive robotics model
+\bibitem{} Towards the Grounding of Abstract Words: A Neural Network Model for Cognitive Robots : Francesca Stramandinoli, Angelo Cangelosi and Davide Marocco
+\bibitem{}Grounding Action Words in the Sensorimotor Interaction with the World: Experiments with a Simulated iCub Humanoid Robot : Davide Marocco, Angelo Cangelosi, Kerstin Fischer and Tony Belpaeme
+	
 \end{thebibliography}
 \end{document}
