@@ -2,7 +2,7 @@
 % This is file cs_thesis.sty
 % It provides you macros necessary to typeset a thesis
 % in the format required by Istanbul Bilgi University
-% Computer Science/Engineering Department
+% Computer Science
 %
 \usepackage[pdftex]{graphicx}
 %
@@ -56,14 +56,14 @@
 %
 % Title page
 %
-\newcommand\submission{Submitted to the Computer Science/Engineering Department}
+\newcommand\submission{Submitted to the Computer Science Department}
 %
 \newcommand\uptitle{
   \vspace*{13pt}
   \@title \\%
   \vskip 128pt
-  by \\ \@author \\ 
-  Supervised  by\\ \@supervisor \\ 
+  by \\ \@author \\
+  Supervised  by\\ \@supervisor \\
   \vspace{\fill}
 }
 %
@@ -89,7 +89,7 @@
    \begin{center}
    \uptitle
    \downtitle
-%\includegraphics[scale=2.0]{cslogo.png}	
+%\includegraphics[scale=2.0]{cslogo.png}
    \end{center}
    \end{titlepage}
    \relaxtitlestuff}
@@ -478,7 +478,7 @@
    \stepcounter{\@mpfn}%
      \begingroup\let\protect\noexpand
        \xdef\@thefnmark{\thempfn}\endgroup
-\let\baselinestretch\@singlespaced 
+\let\baselinestretch\@singlespaced
      \@footnotemark\@footnotetext{#1}
 \let\baselinestretch\@onehalfspaced}
 }
