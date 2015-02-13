@@ -1,4 +1,4 @@
-Dissertation    [![Build Status](https://travis-ci.org/Semyonic/Dissertation.svg?branch=master)](https://travis-ci.org/Semyonic/Dissertation)
+Dissertation
 ============
 
 Computer Science Undergraduate Dissertation about Cognitive Science
