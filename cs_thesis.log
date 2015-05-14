@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.7)  15 MAY 2015 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.7)  15 MAY 2015 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,6 +609,15 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -621,18 +630,18 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 (./cs_thesis.aux)
 \openout1 = `cs_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -688,8 +697,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cs_thesis.bbl' found.
 
 (./cs_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
 \c@lstlisting=\count280
  [1
 
@@ -725,8 +734,8 @@ pdfTeX warning: /usr/texbin/pdflatex: arithmetic: number too big
 <sim.jpg, id=21, --32768.0pt x 0.0pt>
 File: sim.jpg Graphic file (type jpg)
  <use sim.jpg>
-Package pdftex.def Info: sim.jpg used on input line 48.
-(pdftex.def)             Requested size: 352.8155pt x 0.0pt.
+Package pdftex.def Info: sim.jpg used on input line 67.
+(pdftex.def)             Requested size: 264.61331pt x 0.0pt.
  [5
 
  <./sim.jpg>] [6
@@ -734,7 +743,7 @@ Package pdftex.def Info: sim.jpg used on input line 48.
 ]
 Chapter 1.
 
-LaTeX Warning: Citation 'ODE' on page 7 undefined on input line 87.
+LaTeX Warning: Citation 'ODE' on page 7 undefined on input line 110.
 
 [7
 
@@ -744,21 +753,24 @@ Chapter 2.
 
 ]
 Chapter 3.
+
+LaTeX Warning: Citation 'ODE' on page 9 undefined on input line 146.
+
 <cognitive_architecture.jpg, id=35, 889.3225pt x 592.2125pt>
 File: cognitive_architecture.jpg Graphic file (type jpg)
 
 <use cognitive_architecture.jpg>
-Package pdftex.def Info: cognitive_architecture.jpg used on input line 124.
+Package pdftex.def Info: cognitive_architecture.jpg used on input line 153.
 (pdftex.def)             Requested size: 441.01772pt x 293.67471pt.
 
 
-LaTeX Warning: Citation 'YARP' on page 9 undefined on input line 129.
+LaTeX Warning: Citation 'YARP' on page 9 undefined on input line 158.
 
 
-LaTeX Warning: Citation 'Cmake' on page 9 undefined on input line 133.
+LaTeX Warning: Citation 'Cmake' on page 9 undefined on input line 164.
 
 
-LaTeX Warning: Citation 'ACE' on page 9 undefined on input line 134.
+LaTeX Warning: Citation 'ACE' on page 9 undefined on input line 165.
 
 [9
 
@@ -771,14 +783,14 @@ pdfTeX warning: /usr/texbin/pdflatex: arithmetic: number too big
 <yarp.jpg, id=39, --32768.0pt x 0.0pt>
 File: yarp.jpg Graphic file (type jpg)
  <use yarp.jpg>
-Package pdftex.def Info: yarp.jpg used on input line 157.
+Package pdftex.def Info: yarp.jpg used on input line 192.
 (pdftex.def)             Requested size: 352.8155pt x 0.0pt.
 
 <cognitive_architecture_A.jpg, id=40, 112.7412pt x 80.9424pt>
 File: cognitive_architecture_A.jpg Graphic file (type jpg)
 
 <use cognitive_architecture_A.jpg>
-Package pdftex.def Info: cognitive_architecture_A.jpg used on input line 181.
+Package pdftex.def Info: cognitive_architecture_A.jpg used on input line 216.
 (pdftex.def)             Requested size: 396.91324pt x 285.0194pt.
 
 
@@ -786,56 +798,52 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <./yarp.jpg>] [11 <./cognitive_architecture_A.jpg>]
 Chapter 4.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-)
-Overfull \hbox (48.04655pt too wide) in paragraph at lines 209--210
+[12
+
+]
+APPENDIX A.
+
+Overfull \hbox (48.04655pt too wide) in paragraph at lines 235--236
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (18.4063pt too wide) in paragraph at lines 212--213
+Overfull \hbox (18.4063pt too wide) in paragraph at lines 238--239
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (114.73714pt too wide) in paragraph at lines 214--216
+Overfull \hbox (114.73714pt too wide) in paragraph at lines 240--242
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][] 
  []
 
 
-Overfull \hbox (129.55727pt too wide) in paragraph at lines 216--217
+Overfull \hbox (129.55727pt too wide) in paragraph at lines 242--243
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (99.917pt too wide) in paragraph at lines 217--218
+Overfull \hbox (99.917pt too wide) in paragraph at lines 243--244
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (144.3774pt too wide) in paragraph at lines 226--228
+Overfull \hbox (144.3774pt too wide) in paragraph at lines 252--254
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][] 
  []
 
-[12
-
-]
-Chapter 5.
 [13
 
-] [14
+]
+APPENDIX A.
+[14
+
+] [15
 
 ] (./cs_thesis.aux)
 
@@ -853,7 +861,7 @@ Package logreq Info: Writing requests to 'cs_thesis.run.xml'.
 Here is how much of TeX's memory you used:
  9467 strings out of 493117
  147161 string characters out of 6135434
- 549209 words of memory out of 5000000
+ 551218 words of memory out of 5000000
  12806 multiletter control sequences out of 15000+600000
  8483 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -862,10 +870,10 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cs_thesis.pdf (15 pages, 508036 bytes).
+Output written on cs_thesis.pdf (16 pages, 508335 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

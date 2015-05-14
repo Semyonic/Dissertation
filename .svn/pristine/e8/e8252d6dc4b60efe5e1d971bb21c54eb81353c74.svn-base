@@ -1,0 +1,154 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{cs_thesis}
+\usepackage[pdftex]{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{The iCub Humanoid Robot}
+\author{Semih Onay}
+\program{Computer Science}
+\supervisor{Associated Professor Elena Battini Sönmez}
+
+
+\begin{document}
+\pagenumbering{roman}
+\makecstitle
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\begin{symabbreviations}
+\sym{$a_{ij}$}{Description of $a_{ij}$}
+\sym{$\alpha$}{Description of $\alpha$}
+\sym{}{} 
+\sym{DA}{Description of abbreviation}
+\end{symabbreviations}
+
+\chapter*{ABSTRACT}
+Robot are often evolving to the dead ends. Software and hardware 
+They produce disappearing without trace afterwards. Humanoid robotics, a 
+small field with an avid craving for novel devices, we experience a great deal 
+Of “stir” this nature. Here, we explore how to make our 
+projects stable and long-lasting, without compromising our ability to 
+constantly change our sensors, actuators, processors, and networks. We also 
+look at how to encourage the propagation and evolution of hardware designs, so 
+that we can start to build up a “gene-pool” of material to draw upon for new 
+Projects.
+We advance on two fronts, software and hardware. For some time, we have been 
+developing and using the YARP robot software architecture [11], which helps 
+organize communication between sensors, processors, and actuators so that loose 
+coupling is encouraged, making gradual system evolution much easier. YARP 
+includes a model of communication that is transport-neutral, so that data flow 
+is decoupled from the details of the underlying networks and protocols in use. 
+Importantly for the long term, YARP is designed to play well with other 
+architectures. Device drivers written for YARP can be ripped out and used 
+without any “middleware.” On the network, basic interoperation is possible with 
+a few lines of code in any language with a socket library, and maximally 
+efficient interoperation can be achieved by following docu- mented protocols. 
+These features are not normally the first things that end-users look for when 
+starting a project, but they are crucial for longevity.
+We emphasize the strategic utility of the Free Software social contract [15] to 
+soft- ware development for small communities with idiosyncratic requirements. 
+We also work to expand our community by releasing the design of our ICub 
+humanoid [25] under a free and open license, and funding development using this 
+platform.
+
+\chapter*{ÖZET}
+In Turkish
+
+\chapter{INTRODUCTION}
+\pagenumbering{arabic}
+
+\section{literature review}
+\paragraph{}
+The main body of the thesis starts here.
+
+\chapter{LITERATURE REVIEW}
+\section{Who we are}
+
+
+
+\chapter{METHODOLOGY}
+
+\subsection{The YARP Arcitechture}
+The computer simulation model of the iCub robot.The simulator allows to 
+create realistic scenarios in where robot can interact with a virtual world and 
+physical limitations and interactions that occur between the virtual world is 
+simulated using open source library which is ODE (Open Dynamics Engine) to 
+provide accurate simulation of body dynamics.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1.0\linewidth]{cognitive_architecture}
+\caption{}
+\label{fig:cognitive_architecture}
+\end{figure}
+
+top of YARP(Yet Another Robot Platform)[?].YARP is a set of open source 
+libraries that supports modularity by using abstraction method in softwares to 
+handle common difficulties in robotics area which are know as modularity 
+algorithms and hardware in- terfaces and OS platforms.To deal with OS spesific 
+builds,requires to use cross-platform build tools such as CMake[6] and ACE[7].
+YARP is providing platform independence.First abstraction can be described as a 
+protocols.Main YARP protocol manages inter-process communications in operating 
+systems.It can deliver process messages of any size across the network by using 
+different protocols.
+
+Second abstraction is about hardware communications.The method is to define 
+interface for class of devices to fold native coded APIs.Changes in hardwares 
+requires changes in API calls via linking suitable libraries to encapsulate 
+hardware dependency problems. These two abstraction combined to use remote 
+device drives where that can be accessed across the network like a parallel 
+processing.
+Figure 2.2. yarpServer running on Windows x86
+Figure 2.3. YARP Work Flow
+The purpose of YARP ports are to move data from threads to threads over the 
+processes.Flow of the data can be configured and observed from command-line at 
+real- time.Port can receive or send data from any other port.Connections 
+between ports can be modified easily with using different protocols such as 
+TCP(Transmission Control Protocol) and UDP(User Datagram Protocol).The choice 
+of protocol is depends on quality of message transmission or response 
+time.Using TCP is for reliability and UDP is for speed with effect on 
+unreliable transmissions.
+\subsection{Mechanics of iCub}
+
+2.1 Mechanics
+The kinematic specifications of the body of the iCub including the definition 
+of the number of DOF and their actual locations as well as the actual size of 
+the limbs and torso were based on ergonomic data and x-ray images.
+The possibility of achieving certain motor tasks is favored by a suitable 
+kinematics and, in particular, this translates into the determination of the 
+range of movement and the number of controllable joints (where clearly 
+replicating the human body in detail is impossible with current technology). 
+Kinematics is also influenced by the overall size of the robot which was 
+imposed a priori. The size is that of a 3.5 years old child (approximately 
+100cm high). This size can be achieved with current technology. QRIO1 is an 
+example of a robot of an even smaller size although with less degrees of 
+freedom. In particular, our task specifications, especially manipulation, 
+require at least the same
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.9\linewidth]{cognitive_architecture_A}
+\caption{}
+\label{fig:cognitive_architecture_A}
+\end{figure}
+
+
+\chapter{RESULTS}
+
+Results
+
+\chapter{TITLE OF THE FIRST APPENDIX}
+
+\appendix
+
+\begin{thebibliography}{9}
+\bibitem{label} References in the order they are mentioned in the text.
+\bibitem{lee} Lee C. L., Juang J. G.: “Aircraft Landing Control in Wind Shear Condition”,
+Proceedings of the 2011 International Conference on Machine Learning and
+Cybernetics, IEEE Explore, ISBN: 978 – 1 – 4577 – 0308 – 9, 2011
+\end{thebibliography}
+
+\end{document}

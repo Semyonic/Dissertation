@@ -22,6 +22,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4.}RESULTS}{xii}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5.}TITLE OF THE FIRST APPENDIX}{xiii}
+\noindent APPENDIX\ A:\hspace {1.6ex}Sample Code Snippet \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss xiii}\par 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{xiv}
+\noindent APPENDIX\ A:\hspace {1.6ex}Screenshots \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss xiv}\par 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{xv}
