@@ -1,14 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{LIST OF FIGURES}{ii}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{LIST OF TABLES}{iii}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{LIST OF SYMBOLS/ABBREVIATIONS}{iv}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{ABSTRACT}{v}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\IeC {\"O}ZET}{vi}
-\contentsline {chapter}{\numberline {1.}INTRODUCTION}{1}
-\contentsline {section}{\numberline {1.1.} What We Have}{1}
-\contentsline {chapter}{\numberline {2.}THE NEXT CHAPTER}{2}
-\contentsline {section}{\numberline {2.1.} Who we are}{2}
-\contentsline {subsection}{\numberline {2.1.1.} Title of Subsection}{2}
-\contentsline {subsubsection}{\numberline {2.1.1.1.} Title of Subsubsection}{2}
-\contentsline {chapter}{\numberline {3.}CONCLUSIONS}{3}
-\noindent APPENDIX\ A:\hspace {1.6ex}TITLE OF THE FIRST APPENDIX \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss 4}\par
-\contentsline {chapter}{REFERENCES}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1.}INTRODUCTION}{vii}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2.}LITERATURE REVIEW}{viii}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3.}METHODOLOGY}{ix}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.0.1.} The YARP Arcitechture}{ix}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.0.2.} Mechanics of iCub}{x}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4.}RESULTS}{xii}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5.}TITLE OF THE FIRST APPENDIX}{xiii}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{xiv}

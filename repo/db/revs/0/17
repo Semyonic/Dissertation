@@ -1,0 +1,50 @@
+id: 1-4.0.r17/0
+type: file
+pred: 1-4.0.r16/66
+count: 13
+text: 15 0 22 4075 312c7853d8226590e2fe17fe5ee90d61 064a4b9839fe418e122a8f1145b7fddf509fd954 16-g/_2
+cpath: /trunk/cs_thesis.tex
+copyroot: 0 /
+
+PLAIN
+K 13
+cs_thesis.tex
+V 16
+file 1-4.0.r17/0
+END
+ENDREP
+id: 0-1.0.r17/258
+type: dir
+pred: 0-1.0.r16/326
+count: 14
+text: 17 200 45 45 bc719e7c6835e25b3577593466c69074
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-2.0.r2/0
+K 4
+tags
+V 14
+dir 0-3.0.r3/0
+K 5
+trunk
+V 17
+dir 0-1.0.r17/258
+END
+ENDREP
+id: 0.0.r17/509
+type: dir
+pred: 0.0.r16/577
+count: 17
+text: 17 397 99 99 019533a57a2e2c4015444e8fd9427493
+cpath: /
+copyroot: 0 /
+
+1-4.0.t16-g modify-file true false /trunk/cs_thesis.tex
+
+
+509 639

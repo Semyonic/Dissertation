@@ -1,0 +1,87 @@
+%
+% This is a template for the cs_thesis.sty.
+%
+%
+\documentclass[12pt]{report}
+\usepackage{cs_thesis}
+\usepackage[pdftex]{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{TITLE OF THESIS IN CAPITAL LETTERS \\ LITERATURE SURVEY / METHODOLOGY / PROGRESS REPORT}
+
+
+\author{Your Full Name}
+
+\program{Computer Science/Engineering Department}
+
+\supervisor{Title and Name of Supervisor}
+
+
+\begin{document}
+
+\makecstitle
+
+\chapter{INTRODUCTION}
+\pagenumbering{arabic}
+
+\section{What We Have}
+The main body of the thesis starts here.
+This is an example of citation \cite{label}.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{HumanBody.png}
+\caption{This is the Caption for the Figure 1.1}
+\end{center}
+\end{figure}
+
+This is an another sentence. This is an another sentence. This is an another sentence. This is an another sentence. 
+This is an another sentence. This is an another sentence. This is an another sentence. This is an another sentence. 
+This is an another sentence \cite{lee}.
+
+\chapter{THE NEXT CHAPTER}
+\section{Who we are}
+
+This is a simple sentence.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{lll}
+Here's       & another     & example  \\
+of           & a           & table    \\
+floated      & with        & the      \\
+\verb+table+ & environment & command.
+\end{tabular}
+\end{center}
+\caption{This is the Caption for the Table 2.1}
+\end{table}
+
+This is another simple sentence.
+
+\subsection{Title of Subsection}
+
+This is an another sentence. This is an another sentence. This is an another sentence. This is an another sentence. 
+This is an another sentence.
+
+\subsubsection{Title of Subsubsection}
+
+This is an another sentence. This is an another sentence. This is an another sentence. This is an another sentence. 
+This is an another sentence.
+
+\chapter{CONCLUSIONS}
+
+
+%\appendix
+
+%\chapter{TITLE OF THE FIRST APPENDIX}
+The appendices start here.
+
+\begin{thebibliography}{9}
+\bibitem{label} References in the order they are mentioned in the text.
+\bibitem{lee} Lee C. L., Juang J. G.: “Aircraft Landing Control in Wind Shear Condition”,
+Proceedings of the 2011 International Conference on Machine Learning and
+Cybernetics, IEEE Explore, ISBN: 978 – 1 – 4577 – 0308 – 9, 2011
+
+\end{thebibliography}
+\end{document}
