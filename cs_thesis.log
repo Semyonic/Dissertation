@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.7)  15 MAY 2015 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.7)  15 MAY 2015 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -725,31 +725,20 @@ hesis.toc)
 ] [4
 
 
-]
+] [5
 
-pdfTeX warning: /usr/texbin/pdflatex: arithmetic: number too big
-
-
-pdfTeX warning: /usr/texbin/pdflatex: arithmetic: number too big
-<sim.jpg, id=21, --32768.0pt x 0.0pt>
-File: sim.jpg Graphic file (type jpg)
- <use sim.jpg>
-Package pdftex.def Info: sim.jpg used on input line 67.
-(pdftex.def)             Requested size: 264.61331pt x 0.0pt.
- [5
-
- <./sim.jpg>] [6
+] [6
 
 ]
 Chapter 1.
 
-LaTeX Warning: Citation 'Webots' on page 7 undefined on input line 106.
+LaTeX Warning: Citation 'Webots' on page 7 undefined on input line 93.
 
 
-LaTeX Warning: Citation 'ODE' on page 7 undefined on input line 109.
+LaTeX Warning: Citation 'ODE' on page 7 undefined on input line 96.
 
 
-LaTeX Warning: Citation 'Gazebo' on page 7 undefined on input line 111.
+LaTeX Warning: Citation 'Gazebo' on page 7 undefined on input line 99.
 
 [7
 
@@ -760,43 +749,43 @@ Chapter 2.
 ]
 Chapter 3.
 
-LaTeX Warning: Citation 'ODE' on page 9 undefined on input line 145.
+LaTeX Warning: Citation 'ODE' on page 9 undefined on input line 133.
 
-<cognitive_architecture.jpg, id=35, 889.3225pt x 592.2125pt>
+<cognitive_architecture.jpg, id=34, 889.3225pt x 592.2125pt>
 File: cognitive_architecture.jpg Graphic file (type jpg)
 
 <use cognitive_architecture.jpg>
-Package pdftex.def Info: cognitive_architecture.jpg used on input line 152.
+Package pdftex.def Info: cognitive_architecture.jpg used on input line 140.
 (pdftex.def)             Requested size: 441.01772pt x 293.67471pt.
 
 
-LaTeX Warning: Citation 'YARP' on page 9 undefined on input line 157.
+LaTeX Warning: Citation 'YARP' on page 9 undefined on input line 145.
 
 
-LaTeX Warning: Citation 'Cmake' on page 9 undefined on input line 163.
+LaTeX Warning: Citation 'CMake' on page 9 undefined on input line 151.
 
 
-LaTeX Warning: Citation 'ACE' on page 9 undefined on input line 164.
+LaTeX Warning: Citation 'ACE' on page 9 undefined on input line 152.
 
-[9
 
- <./cognitive_architecture.jpg>]
 
 pdfTeX warning: /usr/texbin/pdflatex: arithmetic: number too big
 
 
 pdfTeX warning: /usr/texbin/pdflatex: arithmetic: number too big
-<yarp.jpg, id=39, --32768.0pt x 0.0pt>
+<yarp.jpg, id=35, --32768.0pt x 0.0pt>
 File: yarp.jpg Graphic file (type jpg)
  <use yarp.jpg>
-Package pdftex.def Info: yarp.jpg used on input line 191.
+Package pdftex.def Info: yarp.jpg used on input line 179.
 (pdftex.def)             Requested size: 352.8155pt x 0.0pt.
- [10 <./yarp.jpg>]
-<cognitive_architecture_A.jpg, id=43, 112.7412pt x 80.9424pt>
+ [9
+
+ <./cognitive_architecture.jpg>] [10 <./yarp.jpg>]
+<cognitive_architecture_A.jpg, id=42, 112.7412pt x 80.9424pt>
 File: cognitive_architecture_A.jpg Graphic file (type jpg)
 
 <use cognitive_architecture_A.jpg>
-Package pdftex.def Info: cognitive_architecture_A.jpg used on input line 216.
+Package pdftex.def Info: cognitive_architecture_A.jpg used on input line 204.
 (pdftex.def)             Requested size: 396.91324pt x 285.0194pt.
  [11 <./cognitive_architecture_A.jpg>]
 Chapter 4.
@@ -805,36 +794,36 @@ Chapter 4.
 ]
 APPENDIX A.
 
-Overfull \hbox (48.04655pt too wide) in paragraph at lines 235--236
+Overfull \hbox (48.04655pt too wide) in paragraph at lines 223--224
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (18.4063pt too wide) in paragraph at lines 238--239
+Overfull \hbox (18.4063pt too wide) in paragraph at lines 226--227
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (114.73714pt too wide) in paragraph at lines 240--242
+Overfull \hbox (114.73714pt too wide) in paragraph at lines 228--230
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][] 
  []
 
 
-Overfull \hbox (129.55727pt too wide) in paragraph at lines 242--243
+Overfull \hbox (129.55727pt too wide) in paragraph at lines 230--231
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (99.917pt too wide) in paragraph at lines 243--244
+Overfull \hbox (99.917pt too wide) in paragraph at lines 231--232
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (144.3774pt too wide) in paragraph at lines 252--254
+Overfull \hbox (144.3774pt too wide) in paragraph at lines 240--242
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][] 
  []
@@ -861,21 +850,21 @@ Package logreq Info: Writing requests to 'cs_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9468 strings out of 493117
- 147169 string characters out of 6135434
- 551235 words of memory out of 5000000
- 12807 multiletter control sequences out of 15000+600000
- 8483 words of font info for 31 fonts, out of 8000000 for 9000
+ 9462 strings out of 493117
+ 147093 string characters out of 6135434
+ 551225 words of memory out of 5000000
+ 12801 multiletter control sequences out of 15000+600000
+ 8178 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,7n,58p,820b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cs_thesis.pdf (16 pages, 508977 bytes).
+Output written on cs_thesis.pdf (16 pages, 444879 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
