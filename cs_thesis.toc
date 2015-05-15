@@ -1,29 +1,35 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF FIGURES}{ii}
+\contentsline {chapter}{LIST OF FIGURES}{II}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF TABLES}{iii}
+\contentsline {chapter}{LIST OF SYMBOLS/ABBREVIATIONS}{III}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF SYMBOLS/ABBREVIATIONS}{iv}
+\contentsline {chapter}{\numberline {1.}ABSTRACT}{IV}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ABSTRACT}{v}
+\contentsline {chapter}{\numberline {2.}\IeC {\"O}ZET}{V}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\IeC {\"O}ZET}{vi}
+\contentsline {chapter}{\numberline {3.}INTRODUCTION}{VI}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1.}INTRODUCTION}{vii}
+\contentsline {chapter}{\numberline {4.}LITERATURE REVIEW}{VII}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2.}LITERATURE REVIEW}{viii}
+\contentsline {chapter}{\numberline {5.}METHODOLOGY}{VIII}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3.}METHODOLOGY}{ix}
+\contentsline {subsection}{\numberline {5.0.1.} The YARP Arcitechture}{VIII}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.1.} The YARP Arcitechture}{ix}
+\contentsline {subsection}{\numberline {5.0.2.} The iCub Cognitive Architecture}{IX}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.2.} Mechanics of iCub}{xi}
+\contentsline {subsection}{\numberline {5.0.3.} iCub Simulation Environment}{XI}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4.}RESULTS}{xii}
+\contentsline {subsection}{\numberline {5.0.4.} Mechanics of iCub}{XI}
 \defcounter {refsection}{0}\relax 
-\noindent APPENDIX\ A:\hspace {1.6ex}Sample Code Snippet \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss xiii}\par 
+\contentsline {chapter}{\numberline {6.}RESULTS}{XIII}
 \defcounter {refsection}{0}\relax 
-\noindent APPENDIX\ A:\hspace {1.6ex}Screenshots \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss xiv}\par 
+\contentsline {chapter}{\numberline {7.}CONCULUSION}{XIV}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{xv}
+\contentsline {subsection}{\numberline {7.0.5.} Object Representation}{XIV}
+\defcounter {refsection}{0}\relax 
+\noindent APPENDIX\ A:\hspace {1.6ex}Sample Code Snippet \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss XV}\par 
+\defcounter {refsection}{0}\relax 
+\noindent APPENDIX\ A:\hspace {1.6ex}Screenshots \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss XVI}\par 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{XVII}
