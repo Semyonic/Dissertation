@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.7)  15 MAY 2015 01:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.7)  15 MAY 2015 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -743,7 +743,13 @@ Package pdftex.def Info: sim.jpg used on input line 67.
 ]
 Chapter 1.
 
-LaTeX Warning: Citation 'ODE' on page 7 undefined on input line 110.
+LaTeX Warning: Citation 'Webots' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation 'ODE' on page 7 undefined on input line 109.
+
+
+LaTeX Warning: Citation 'Gazebo' on page 7 undefined on input line 111.
 
 [7
 
@@ -754,23 +760,23 @@ Chapter 2.
 ]
 Chapter 3.
 
-LaTeX Warning: Citation 'ODE' on page 9 undefined on input line 146.
+LaTeX Warning: Citation 'ODE' on page 9 undefined on input line 145.
 
 <cognitive_architecture.jpg, id=35, 889.3225pt x 592.2125pt>
 File: cognitive_architecture.jpg Graphic file (type jpg)
 
 <use cognitive_architecture.jpg>
-Package pdftex.def Info: cognitive_architecture.jpg used on input line 153.
+Package pdftex.def Info: cognitive_architecture.jpg used on input line 152.
 (pdftex.def)             Requested size: 441.01772pt x 293.67471pt.
 
 
-LaTeX Warning: Citation 'YARP' on page 9 undefined on input line 158.
+LaTeX Warning: Citation 'YARP' on page 9 undefined on input line 157.
 
 
-LaTeX Warning: Citation 'Cmake' on page 9 undefined on input line 164.
+LaTeX Warning: Citation 'Cmake' on page 9 undefined on input line 163.
 
 
-LaTeX Warning: Citation 'ACE' on page 9 undefined on input line 165.
+LaTeX Warning: Citation 'ACE' on page 9 undefined on input line 164.
 
 [9
 
@@ -783,20 +789,16 @@ pdfTeX warning: /usr/texbin/pdflatex: arithmetic: number too big
 <yarp.jpg, id=39, --32768.0pt x 0.0pt>
 File: yarp.jpg Graphic file (type jpg)
  <use yarp.jpg>
-Package pdftex.def Info: yarp.jpg used on input line 192.
+Package pdftex.def Info: yarp.jpg used on input line 191.
 (pdftex.def)             Requested size: 352.8155pt x 0.0pt.
-
-<cognitive_architecture_A.jpg, id=40, 112.7412pt x 80.9424pt>
+ [10 <./yarp.jpg>]
+<cognitive_architecture_A.jpg, id=43, 112.7412pt x 80.9424pt>
 File: cognitive_architecture_A.jpg Graphic file (type jpg)
 
 <use cognitive_architecture_A.jpg>
 Package pdftex.def Info: cognitive_architecture_A.jpg used on input line 216.
 (pdftex.def)             Requested size: 396.91324pt x 285.0194pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <./yarp.jpg>] [11 <./cognitive_architecture_A.jpg>]
+ [11 <./cognitive_architecture_A.jpg>]
 Chapter 4.
 [12
 
@@ -859,10 +861,10 @@ Package logreq Info: Writing requests to 'cs_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9467 strings out of 493117
- 147161 string characters out of 6135434
- 551218 words of memory out of 5000000
- 12806 multiletter control sequences out of 15000+600000
+ 9468 strings out of 493117
+ 147169 string characters out of 6135434
+ 551235 words of memory out of 5000000
+ 12807 multiletter control sequences out of 15000+600000
  8483 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,7n,58p,820b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -870,7 +872,7 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cs_thesis.pdf (16 pages, 508335 bytes).
+Output written on cs_thesis.pdf (16 pages, 508977 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.0.1.} The YARP Arcitechture}{ix}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.2.} Mechanics of iCub}{x}
+\contentsline {subsection}{\numberline {3.0.2.} Mechanics of iCub}{xi}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4.}RESULTS}{xii}
 \defcounter {refsection}{0}\relax 

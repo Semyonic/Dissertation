@@ -103,14 +103,13 @@
   algorithms and methods instead of dealing with complex configuration of iCub 
   hardware. The simulator is designed to be accurate as real world psychics and 
   dynamics. Development is based on directly from first prototype of simulation 
-  environment Webots[1]. Webots was expensive and had limited access to source 
-  code which made hard to modify source code in order to add some 
-  properties.Then 
-  iCub simulation created.Simulation environment uses 
-  \cite{ODE} to simulate 
-  body movement and collision detection algorithms to measure psychical 
-  interaction with the world.ODE is used in wide range of projects like Gazebo 
-  project. ODE is an open source physics engine for authoring tools, computer 
+  environment \cite{Webots}. It was expensive and had limited access to 
+  source code which made hard to modify source code in order to add some 
+  functionalties.Then iCub simulation created. Simulation environment uses 
+  \cite{ODE} to simulate body movement and collision detection algorithms to 
+  measure psychical interaction with the world.ODE is used in wide range of 
+  projects like \cite{Gazebo}. ODE is an open source physics engine for 
+  authoring tools, computer 
   games,etc.It uses OpenGL renderer and it has some disadvantages due to 
   limitation of OpenGL engine computation efficiency on complex structures.iCub 
   simulation uses OpenGL directly via SDL which helps to render complex robot 
@@ -151,7 +150,7 @@
   \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\linewidth]{cognitive_architecture}
-    \caption{}
+    \caption{Cognitive Architecture of iCub}
     \label{fig:cognitive_architecture}
   \end{figure}
   
@@ -193,6 +192,7 @@
     \caption{}
     \label{fig:yarp}
   \end{figure}
+  \newpage
   \subsection{Mechanics of iCub}
   
   2.1 Mechanics
@@ -265,6 +265,10 @@
     \bibitem{ODE} 
     ODE: Open Dynamics Engine
     \\\texttt{http://www.ode.org}
+    
+    \bibitem{Gazebo}
+    Gazebo : Open Source Simulation Environment
+    \\\texttt{http://gazebosim.org}
     
     \bibitem{YARP} 
     YARP: Yet Another Robot Platform 
