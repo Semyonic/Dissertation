@@ -1,35 +1,43 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF FIGURES}{II}
+\contentsline {chapter}{LIST OF FIGURES}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF SYMBOLS/ABBREVIATIONS}{III}
+\contentsline {chapter}{LIST OF SYMBOLS/ABBREVIATIONS}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1.}ABSTRACT}{IV}
+\contentsline {chapter}{\numberline {1.}ABSTRACT}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2.}\IeC {\"O}ZET}{V}
+\contentsline {chapter}{\numberline {2.}INTRODUCTION}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3.}INTRODUCTION}{VI}
+\contentsline {chapter}{\numberline {3.}LITERATURE REVIEW}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4.}LITERATURE REVIEW}{VII}
+\contentsline {chapter}{\numberline {4.}METHODOLOGY}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5.}METHODOLOGY}{VIII}
+\contentsline {subsection}{\numberline {4.0.1.} The iCub Cognitive Architecture}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.0.1.} The YARP Arcitechture}{VIII}
+\contentsline {subsection}{\numberline {4.0.2.} The Embodiment}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.0.2.} The iCub Cognitive Architecture}{IX}
+\contentsline {subsection}{\numberline {4.0.3.} Software Representation}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.0.3.} iCub Simulation Environment}{XI}
+\contentsline {subsection}{\numberline {4.0.4.} The YARP}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.0.4.} Mechanics of iCub}{XI}
+\contentsline {subsection}{\numberline {4.0.5.} iCub Simulation Environment}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6.}RESULTS}{XIII}
+\contentsline {chapter}{\numberline {5.}CONCULUSIONS}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7.}CONCULUSION}{XIV}
+\contentsline {subsection}{\numberline {5.0.6.} Speech Synthesis}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.0.5.} Object Representation}{XIV}
+\contentsline {subsection}{\numberline {5.0.7.} Object Grasping}{11}
 \defcounter {refsection}{0}\relax 
-\noindent APPENDIX\ A:\hspace {1.6ex}Sample Code Snippet \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss XV}\par 
+\contentsline {subsection}{\numberline {5.0.8.} Image Capture}{11}
 \defcounter {refsection}{0}\relax 
-\noindent APPENDIX\ A:\hspace {1.6ex}Screenshots \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss XVI}\par 
+\contentsline {subsection}{\numberline {5.0.9.} Sound I/O}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{XVII}
+\noindent APPENDIX\ A:\hspace {1.6ex}Sample Code Snippets \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss 12}\par 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.0.10.} Turkish Synthesis Module}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.0.11.} Object Mover Module}{14}
+\defcounter {refsection}{0}\relax 
+\noindent APPENDIX\ A:\hspace {1.6ex}Screenshots \penalty \@M \leaders \hbox {$\mathsurround \z@ \mkern 4.5mu.\mkern 4.5mu$} \hfill \penalty \@M \hbox to1.55em{\hss 15}\par 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{17}

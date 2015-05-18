@@ -1,11 +1,17 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {Figure 5.1.}{\ignorespaces Cognitive Architecture of iCub}\vspace \baselineskip }{VIII}
+\contentsline {figure}{\numberline {Figure 4.1.}{\ignorespaces General View of iCub Cognitive Architecture}\vspace \baselineskip }{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {Figure 5.2.}{\ignorespaces YARP Command Line Interface}\vspace \baselineskip }{IX}
+\contentsline {figure}{\numberline {Figure 4.2.}{\ignorespaces iCub Internal Architecture}\vspace \baselineskip }{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {Figure 5.3.}{\ignorespaces Cognitive Architecture of iCub}\vspace \baselineskip }{X}
+\contentsline {figure}{\numberline {Figure 4.3.}{\ignorespaces YARP Command Line Interface}\vspace \baselineskip }{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {Figure 5.4.}{\ignorespaces iCub Simulation Environment}\vspace \baselineskip }{XI}
+\contentsline {figure}{\numberline {Figure 4.4.}{\ignorespaces iCub Simulation Environment}\vspace \baselineskip }{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {Figure 5.5.}{\ignorespaces }\vspace \baselineskip }{XII}
+\contentsline {figure}{\numberline {Figure A.1.}{\ignorespaces Full Body Movement}\vspace \baselineskip }{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {Figure A.2.}{\ignorespaces Action Recognizer}\vspace \baselineskip }{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {Figure A.3.}{\ignorespaces iSpeak Module}\vspace \baselineskip }{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {Figure A.4.}{\ignorespaces iCub Sample Body Postures}\vspace \baselineskip }{16}

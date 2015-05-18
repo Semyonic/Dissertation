@@ -1963,11 +1963,9 @@
   <bcf:bibdata section="0">
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">ODE</bcf:citekey>
-    <bcf:citekey order="2">YARP</bcf:citekey>
-    <bcf:citekey order="3">CMake</bcf:citekey>
-    <bcf:citekey order="4">ACE</bcf:citekey>
-    <bcf:citekey order="5">David Vernon</bcf:citekey>
-    <bcf:citekey order="5">The iCub</bcf:citekey>
+    <bcf:citekey order="1">V. Tikhanoff</bcf:citekey>
+    <bcf:citekey order="1">A. Cangelosi</bcf:citekey>
+    <bcf:citekey order="1">G. Metta Platform</bcf:citekey>
+    <bcf:citekey order="2">David Vernon</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
