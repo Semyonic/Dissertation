@@ -42,11 +42,10 @@ commentstyle=\color{green},
 morecomment=[l][\color{magenta}]{\#}
 }
 
-\title{The iCub Humanoid Robot}
+\title{The iCub Cognitive Robotic Experiments}
 \author{Semih Onay}
 \program{Computer Science}
-\supervisor{Associated Professor Elena Battini Sönmez}
-
+\supervisor{Assistant Professor Elena Battini Sönmez}
 
 \begin{document}
 \pagenumbering{arabic}
@@ -75,7 +74,7 @@ abilities, visio-motor abilities and linguistics are designed and developed.
 Study includes robotic simulation applications. Cognitive modules will be 
 developed by using application templates and documentation.
 \linebreak
-{Keywords} : cognitive science,humanoid robots,iCub
+Keywords : cognitive science, humanoid robots,iCub
 \chapter{INTRODUCTION}
 The iCub is a humanoid robot that developed at Istituto Italiano di 
 Tecnologia (IIT) as part of European project RobotCub and later adopted by 
@@ -86,7 +85,7 @@ of proprioception\footnote{Body configuration and movement using accelerometers
 and gyroscopes}. It’s designed to aid studies of human cognition and artificial 
 intelligence. Project members developed computer simulator to experiment new 
 techniques.\par 
-Computer simulations are getting important in area robotics area.Simulations 
+Computer simulations are getting important in area robotics area. Simulations 
 may not provide real complexity of the physical world and 
 not reliable as real dynamics. The simulator of iCub is an easy way to test 
 new algorithms and methods instead of dealing with complex configuration of 
@@ -113,7 +112,7 @@ computationally efficient simulation observations. The aim of this study is to
 experiment and understand how cognitive architecture of robotics designed and 
 implemented. 
 
-{\tiny}\chapter{LITERATURE REVIEW}
+\chapter{LITERATURE REVIEW}
 Development of simulator is described by abstraction of parts to handle 
 complex instructions more precisely and efficient. Some other external 
 software 
@@ -126,7 +125,6 @@ environment to extendcapability of creating new interfaces to virtual
 simulation world and can be changed or taught as different languages which 
 helps to extend knowledge about languages.
 
-
 The great challenges in robotics is to imitate human behaviour. Most of the 
 humanoid robots have some perception to recognize their surroundings 
 autonomosly. Grasping an object in its environment, is one of the most 
@@ -137,17 +135,20 @@ from the robot is crucial when implementing an efficient robotic grasp. The
 quality of the sensing information 
 must also be taken into consideration, as signals may limit precision and can 
 potentially be noisy. In recent years, there have been several models 
-implemented to perform a grasping behavior.\cite{V. Tikhanoff, A. Cangelosi, G. 
-Metta  Platform}
-
-
+implemented to perform a grasping behavior.\cite{vernon}
 \begin{itemize}
 \item Knowledge based grasp action,
 \item Geometric grasp action,
 \item Sensor driven and learning based grasping.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\linewidth]{generalView}
+\caption{General View of iCub}
+\label{fig:generalView}
+\end{figure}
 \end{itemize}
 \chapter{METHODOLOGY}
-\subsection{The iCub Cognitive Architecture}
+\section{The iCub Cognitive Architecture}
 The architecture consists of modules and sub-modules. Their relations are 
 similar to the human mental system. Gaze controling, reaching, and locomotion 
 establishes the simple goal oriented actions. Episodic and procedural memories 
@@ -173,18 +174,18 @@ triggered by exogenous and endogenous factors, respectively. Distinction
 between the exogenous and endogenous salience is represented by the need to 
 include an attention system to consolidate both factors.
 \newpage
-\subsection{The Embodiment}
+\section{The Embodiment}
 It is developed as an embodied agent by its physical components joints, 
 actuators, and a many of sensors that are providing internal stimuli and 
 external stimuli information about the body and its surroundings. 
 Actuation is effected through a variety of DC motors and servo-motors. Sensory 
 data provides joint position, velocity of movements, and torque, streamed video 
 images from the head eye cameras, audio from the left and right ear 
-microphones\cite{David Vernon}. Accessing to the motor control and sensor 
+microphones\cite{9}. Accessing to the motor control and sensor 
 interface is provided through iCubInterface in the cognitive architecture in 
 Fig. 5.1 This module is represented as an YARP software module iCubInterface.
 That interface turns relevant data into actions.
-\subsection{Software Representation}
+\section{Software Representation}
 Software implementation is shown in Figure 5.2 has been realized as a complete 
 software system consist of a YARP and iCub modules. All modules are connected 
 internally and communicates through YARP ports and they can be called from a 
@@ -209,8 +210,100 @@ modules are:
   \caption{iCub Internal Architecture}
   \label{fig:cognitive_architecture_A}
 \end{figure} 
-\newpage
-\subsection{The YARP}
+\section{Gaze Control}
+The Gaze Control component provides coordinated control of the head and eyes of 
+the iCub. Rather than by specifying the raw joint values for the head and eyes, 
+the gaze direction of the robot is specified by gaze direction (azimuth and 
+elevation angles) and vergence of the two eyes. In addition, the motion of the 
+eyes and head when moving to a given gaze position are controlled to provide a 
+motion profile that is similar to humans, with the gaze direction of the eyes 
+moving quickly and the head moving more slowly but subsequently catching up so 
+that the eyes gaze is reaching an equilibrium position that is relatively 
+centred with respect to the head  and with the head oriented in the specified 
+gaze direction.
+The gaze direction can be specified using any of four different types of 
+coordi- nates:
+\begin{itemize}
+  \item absolute azimuth and elevation  in degrees;
+  \item azimuth and elevation angles relative to the current gaze direction;
+  \item normalized image coordinates (in the range zero to one) of the position 
+  at which the iCub should look;
+  \item the image pixel coordinates of the position at which the iCub should 
+  look.  Head gaze and vergence are controlled simultaneously.
+\end{itemize}
+There are two modes of head gaze control: saccadic motion and smooth pursuit
+motion. Saccades are controlled in two phases. In the first fast phase, the 
+eyes are driven quickly to the destination gaze direction by controlling the 
+common eye ver- sion and tilt degrees of freedom. In the second slow phase, the 
+neck moves toward the final gaze direction with a slower velocity profile and 
+the eyes counter rotate to keep the image stable. A new saccade is accepted 
+only when the previous one has finished. This is the typical operation in 
+humans where saccades are used to change the object of interest. Smooth 
+pursuit only operates in the slow phase, but it accepts a continuous stream 
+of commands.\cite{1}It is meant to emulate the human behaviour when 
+tracking an 
+object. A single set of motor controller gains are used for both the saccade 
+and smooth pursuit modes. These gains specify the speed of the motion and 
+therefore the amount of motion undergone by the eyes and by the neck. The 
+higher the gain, the more the eye motion will lead the neck motion and, 
+therefore, the more the eyes have to counter-rotate as the neck approaches the 
+gaze direction. Vergence operates continuously in a single phase and there is 
+an independent gain for the vergence controller.
+\section{Reach and Grasp}
+The Reach and Grasp includes a robust task-space reaching controller 
+for learning internal generic inverse kinematic models and human-like 
+trajectory generation. This controller takes into account various constraints 
+such as joint limits, obstacles, redundancy and singularities. It also includes 
+a module for grasping based on reaching and orienting behaviours. This allows 
+the coordination of looking (for a potential target), reaching for it (placing 
+the hand close to the target) and attempting a grasping motion (or another 
+basic action).
+At present, the reaching controller takes as input the Cartesian position and 
+ori- entation of an object to be grasped, based on a visual recognition 
+process. The arm and torso configuration to achieve the desired pose (i.e. the 
+hand position and ori- entation) is determined using a non-linear optimizer 
+which takes into account all the various constraints, one of which is to keep 
+the torso as close as possible to vertical while reaching. Subsequently, 
+human-like quasi straight hand and arm trajectories are then generated 
+independently using a biologically inspired controller. This controller 
+exploits a multi referential system whereby two minimum-jerk velocity
+vectors are generated, one in joint space and one in task space. A 
+coherence constraint is imposed which modulates the relative influence of the 
+joint and task space trajectories. The advantage of such a redundant 
+representation of the movement is that a quasi straight line trajectory 
+profile which is similar to human like motion can be generated for the hand in 
+the task space while at the same time retaining convergence and robustness 
+against singularities.
+\section{Action}
+Guideline 10 states that movements should be organized as actions. Since 
+actions are planned, goal-directed, acts they are triggered by system motives 
+(see Guideline 6) and they are guided by prospection. In other words, the 
+action is defined, not by a servo-motor set point specifying an effector 
+movement, but by the goal of the action, an action whose outcome must be 
+achieved adaptively by constituent movements. This guideline is implemented in 
+the iCub cognitive architecture by the procedural and episodic memories and by 
+use of visual servoing in reaching and locomotion. Specifically, the procedural 
+memory represents actions as gaze saccades together with an optional reaching, 
+hand-pushing, grasping, or locomotion movement. These actions are associated 
+with expected outcomes defined by the expected outcome in the episodic memory. 
+Thus, the procedural and episodic memory provide a feed- forward goal state for 
+the action while the visual servoing, whereby the effector is adaptively 
+controlled to align it with a fixation point while re-centering the gaze after 
+the execution of saccade, achieves the required motion through feedback 
+control of the arm and hand.
+\section{Action Selection}
+The purpose of the Action Selection component is to effect the development of 
+the iCub and specifically to increase its predictive capability. In the current 
+version of the iCub cognitive architecture, this means the selection of the 
+iCub’s mode of exploration. At present, only two basic motives drive this iCub 
+development, curiousity and experimentation, both of them exploratory. The 
+third main motive, social interaction, has not yet been addressed.\cite{10} 
+Consequently, the present implementation of action selection is based on a very 
+trivial function of the levels of curiousity and experimentation produced by 
+the Affective State component. Specifically, the learn- ing mode is selected if 
+the curiosity level is higher than the experimentation level; otherwise the 
+prediction mode is selected.
+\section{The YARP}
 It is a set of open source libraries that supports modularity by 
 using abstraction method in softwares to handle common difficulties in 
 robotics area which are know as modularity algorithms, hardware interfaces and 
@@ -245,8 +338,7 @@ response
 time. Using TCP is for reliability and UDP is for speed with effect on 
 unreliable transmissions. As it seen in Figure 5.3 it registers a name server 
 over localhost and assigns root node to branching iCub components.
-\newpage
-\subsection{iCub Simulation Environment}
+\section{iCub Simulation Environment}
 The computer simulation model of the iCub allows to create realistic scenarios 
 in where robot can interact with a virtual world and physical limitations, 
 interactions that occur between the virtual world is simulated using open 
@@ -263,21 +355,21 @@ direct frame streaming through yarpview application.
 \label{fig:icub}
 \end{figure}
 \chapter{CONCULUSIONS}
-\subsection{Speech Synthesis}
+\section{Speech Synthesis}
 Speech module has ability to speak given text inputs only in English language. 
 A new Module developed from application template with open source text to 
 speech library. iCub now can speak Turkish language. Module can be extended to 
 synthesis of another languages. eSpeak wrapper can provide various of language 
 sound database. Speech Recognition module exists but it needs some Windows 
 system libraries.
-\subsection{Object Grasping}
+\section{Object Grasping}
 Module tested with example data sets. It can grasp an object from table. It 
 requires that other modules support. Required modules must be running before 
 the grasping module. It needs to be trained from a neural network file.
-\subsection{Image Capture}
+\section{Image Capture}
 An application developed from templates to capture actual action sequences from 
 head camera. Images can be streamed as a video.
-\subsection{Sound I/O}
+\section{Sound I/O}
 Small module developed to send sound commands from computer microphone. Module 
 documentation was not enough descriptive to create new audio ports for speech 
 recognition. Some applications were not complied at all.
@@ -287,7 +379,7 @@ All implementations are avaible on \bf GitHub.
 
 \appendix
 \chapter{Sample Code Snippets}
-\subsection{Turkish Synthesis Module}
+\section{Turkish Synthesis Module}
 \begin{lstlisting}
 class iSpeak : protected BufferedPort<Bottle>,
 public    RateThread
@@ -297,10 +389,8 @@ string package;
 string package_options;
 deque<Bottle> buffer;
 Mutex mutex;
-
 bool speaking;
 MouthHandler mouth;
-
 // gets text sequence
 void speak(const string &phrase)
 {
@@ -309,7 +399,6 @@ command+=phrase;
 command+="\" | ";
 command+=package;
 command+=" ";
-
 // Check for speech synthesis library
 if (package=="espeak")
 command+="-v turkish --stdin";
@@ -318,7 +407,6 @@ command+="-v turkish --stdin";
 command+=package_options;
 //int ret=system(command.c_str());
 }
-
 void run()
 {
 string phrase;
@@ -336,23 +424,20 @@ if (buffer.size()>0)
 Bottle request=buffer.front();
 buffer.pop_front();
 
-if (request.size()>0)
-{
-if (request.get(0).isString())
-{
-phrase=request.get(0).asString().c_str();
-speaking=true;
-}
+if (request.size()>0){
+  if (request.get(0).isString()){
+      phrase=request.get(0).asString().c_str();
+      speaking=true;
+  }
 else if (request.get(0).isDouble() || request.get(0).isInt())
-{
+  {
 time=request.get(0).asDouble();
 speaking=true;
 onlyMouth=true;
 }
-
 }
 \end{lstlisting}
-\subsection{Object Mover Module}
+\section{Object Mover Module}
 \begin{lstlisting}
 public:objectMoverThread(ResourceFinder &_rf) : rf(_rf) {
 virtual bool loadParams() {
@@ -405,7 +490,7 @@ robotname = rf.check("robot", Value("icubSim"),"robot name").asString().c_str();
 \end{figure}
 
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
   \bibitem{Webots} 
   Webots: Robot simulation software
   \\\texttt{https://www.cyberbotics.com}
@@ -434,16 +519,16 @@ robotname = rf.check("robot", Value("icubSim"),"robot name").asString().c_str();
   iCub: An Open Source Cognitive Humanoid Robotic Platform
   \\\texttt{http://www.icub.org}
   
-  \bibitem{David Vernon} David Vernon The iCub [online]. 
-  URL 
-  \url{http://www.referenceforbusiness.com/biography/A-E/Ballmer-Steve-1956.ht%
-    % ml}. Accessed 18 March 2015.
-   \bibitem{V. Tikhanoff, A. Cangelosi, G. Metta Platform}
+   \bibitem{cangelosi-action} V. Tikhanoff, A. Cangelosi, G. Metta Platform
    Speech and Action Integration in Humanoid Robots: Simulation Experiments 
    with iCub, V. Tikhanoff, A. Cangelosi, G. Metta Platform 
-  \bibitem{}The iCub humanoid robot: an open platform for research in embodied 
-  cognition, Giorgio Metta Giulio Sandini, David Vernon, Lorenzo Natale
-Francesco Nori
-  \end{thebibliography}
+  \bibitem{vernon}The iCub humanoid robot: an open platform for research in 
+  embodied cognition, Giorgio Metta Giulio Sandini, David Vernon, Lorenzo Natale
+  Francesco Nori
+
+  \bibitem{xavier}Real-Time Parallel Processing of Grammatical Structure in the 
+  Fronto-Striatal System: A Recurrent Network Simulation Study Using Reservoir 
+  Computing , Xavier Hinaut, Peter Ford Dominey
   
+  \end{thebibliography}
 \end{document}
