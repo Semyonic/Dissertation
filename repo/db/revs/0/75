@@ -1,0 +1,62 @@
+id: 1-72.0.r75/0
+type: file
+pred: 1-72.0.r74/52
+count: 3
+text: 72 0 3879 9130 84884a2b941c2b9ef32d7fe468d50af9 9e3b80e23e02d13f08e736abe61aaaec670dc9b2 74-25/_2
+cpath: /trunk/proposal_temp.tex
+copyroot: 0 /
+
+PLAIN
+K 15
+biblography.tex
+V 18
+file 1-59.0.r61/64
+K 13
+cs_thesis.tex
+V 17
+file 1-4.0.r58/61
+K 17
+proposal_temp.tex
+V 17
+file 1-72.0.r75/0
+K 10
+thesis.tex
+V 18
+file 1-62.0.r71/55
+END
+ENDREP
+id: 0-1.0.r75/398
+type: dir
+pred: 0-1.0.r74/450
+count: 72
+text: 75 208 177 177 43c3d0f5f123ab7d4b0a5c7526fc6e36
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-2.0.r2/0
+K 4
+tags
+V 14
+dir 0-3.0.r3/0
+K 5
+trunk
+V 17
+dir 0-1.0.r75/398
+END
+ENDREP
+id: 0.0.r75/651
+type: dir
+pred: 0.0.r74/703
+count: 75
+text: 75 539 99 99 41cb62a3f213502945b8cf725f52e8cc
+cpath: /
+copyroot: 0 /
+
+1-72.0.t74-25 modify-file true false /trunk/proposal_temp.tex
+
+
+651 781
